@@ -1,0 +1,10 @@
+bind_addr = ":8080"
+mocks_folder = "mocks"
+
+[[routes]]
+path = "/stats"
+filename = "stats.json"
+
+[[routes]]
+path = "/users"
+filename = "users.json"
